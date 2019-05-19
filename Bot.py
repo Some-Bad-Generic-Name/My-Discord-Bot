@@ -129,4 +129,4 @@ async def roll(ctx):
     # await voice_client.disconnect()
 
 
-client.run('NTc5MDkyNDMwMTM4MTE0MTA4.XN9NHA.GRyFrHOis8miYtVDvUljkhCJ8N8')
+client.run(os.getenv('TOKEN'))
